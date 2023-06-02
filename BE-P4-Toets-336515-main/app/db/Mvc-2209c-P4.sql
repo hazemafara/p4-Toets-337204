@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `Examen`
 --
 
-DROP TABLE IF EXISTS `Examen`;
+DROP TABLE IF EXSTS `Examen`;
 CREATE TABLE IF NOT EXISTS `Examen` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
   `StudentId` int(11) NOT NULL,
